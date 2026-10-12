@@ -2,7 +2,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Candy Crush",
     "folder": "01-Candy-Crush-Game",
-    "path": "games/01-Candy-Crush-Game/index.html",
+    "path": "01-Candy-Crush-Game/index.html",
     "icon": "🍬",
     "category": "Puzzle",
     "cover": null
@@ -10,7 +10,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Pac Man",
     "folder": "02-Pac-Man-Game",
-    "path": "games/02-Pac-Man-Game/index.html",
+    "path": "02-Pac-Man-Game/index.html",
     "icon": "👻",
     "category": "Arcade",
     "cover": null
@@ -18,7 +18,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Chess",
     "folder": "03-Chess-Game",
-    "path": "games/03-Chess-Game/index.html",
+    "path": "03-Chess-Game/index.html",
     "icon": "♟️",
     "category": "Strategy",
     "cover": null
@@ -26,7 +26,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Doodle Jump",
     "folder": "04-Doodle-Jump-Game",
-    "path": "games/04-Doodle-Jump-Game/index.html",
+    "path": "04-Doodle-Jump-Game/index.html",
     "icon": "🚀",
     "category": "Arcade",
     "cover": null
@@ -34,7 +34,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Solitaire",
     "folder": "05-Solitaire-Game",
-    "path": "games/05-Solitaire-Game/index.html",
+    "path": "05-Solitaire-Game/index.html",
     "icon": "🃏",
     "category": "Cards",
     "cover": null
@@ -42,7 +42,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Sudoku",
     "folder": "06-Sudoku-Game",
-    "path": "games/06-Sudoku-Game/index.html",
+    "path": "06-Sudoku-Game/index.html",
     "icon": "🔢",
     "category": "Puzzle",
     "cover": null
@@ -50,7 +50,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Crossy Road",
     "folder": "07-Crossy-Road-Game",
-    "path": "games/07-Crossy-Road-Game/index.html",
+    "path": "07-Crossy-Road-Game/index.html",
     "icon": "🐸",
     "category": "Arcade",
     "cover": null
@@ -58,7 +58,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Rock Paper Scissors",
     "folder": "08-Rock-Paper-Scissors",
-    "path": "games/08-Rock-Paper-Scissors/index.html",
+    "path": "08-Rock-Paper-Scissors/index.html",
     "icon": "✂️",
     "category": "Casual",
     "cover": null
@@ -66,7 +66,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Flappy Bird",
     "folder": "09-Flappy-Bird-Game",
-    "path": "games/09-Flappy-Bird-Game/index.html",
+    "path": "09-Flappy-Bird-Game/index.html",
     "icon": "🐦",
     "category": "Arcade",
     "cover": null
@@ -74,7 +74,7 @@ window.GAME_LIBRARY = [
   {
     "name": "2048",
     "folder": "10-2048-Game",
-    "path": "games/10-2048-Game/index.html",
+    "path": "10-2048-Game/index.html",
     "icon": "🔢",
     "category": "Puzzle",
     "cover": null
@@ -82,7 +82,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Wordle",
     "folder": "11-Wordle-Game",
-    "path": "games/11-Wordle-Game/index.html",
+    "path": "11-Wordle-Game/index.html",
     "icon": "🔤",
     "category": "Word",
     "cover": null
@@ -90,7 +90,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Hangman",
     "folder": "12-Hangman-Game",
-    "path": "games/12-Hangman-Game/index.html",
+    "path": "12-Hangman-Game/index.html",
     "icon": "🪢",
     "category": "Word",
     "cover": null
@@ -98,7 +98,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Tower Blocks",
     "folder": "13-Tower-Blocks",
-    "path": "games/13-Tower-Blocks/index.html",
+    "path": "13-Tower-Blocks/index.html",
     "icon": "🧱",
     "category": "Arcade",
     "cover": null
@@ -106,7 +106,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Archery",
     "folder": "14-Archery-Game",
-    "path": "games/14-Archery-Game/index.html",
+    "path": "14-Archery-Game/index.html",
     "icon": "🏹",
     "category": "Action",
     "cover": null
@@ -114,15 +114,15 @@ window.GAME_LIBRARY = [
   {
     "name": "Tic Tac Toe",
     "folder": "15-Tic-Tac-Toe",
-    "path": "games/15-Tic-Tac-Toe/index.html",
+    "path": "15-Tic-Tac-Toe/index.html",
     "icon": "⭕",
     "category": "Strategy",
-    "cover": "games/15-Tic-Tac-Toe/O-Player.png"
+    "cover": "15-Tic-Tac-Toe/O-Player.png"
   },
   {
     "name": "Minesweeper",
     "folder": "16-Minesweeper-Game",
-    "path": "games/16-Minesweeper-Game/index.html",
+    "path": "16-Minesweeper-Game/index.html",
     "icon": "💣",
     "category": "Puzzle",
     "cover": null
@@ -130,7 +130,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Speed Typing",
     "folder": "17-Speed-Typing-Game",
-    "path": "games/17-Speed-Typing-Game/index.html",
+    "path": "17-Speed-Typing-Game/index.html",
     "icon": "⌨️",
     "category": "Word",
     "cover": null
@@ -138,7 +138,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Breakout",
     "folder": "18-Breakout-Game",
-    "path": "games/18-Breakout-Game/index.html",
+    "path": "18-Breakout-Game/index.html",
     "icon": "🧱",
     "category": "Arcade",
     "cover": null
@@ -146,7 +146,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Ping Pong",
     "folder": "19-Ping-Pong-Game",
-    "path": "games/19-Ping-Pong-Game/index.html",
+    "path": "19-Ping-Pong-Game/index.html",
     "icon": "🏓",
     "category": "Sports",
     "cover": null
@@ -154,7 +154,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Tetris",
     "folder": "20-Tetris-Game",
-    "path": "games/20-Tetris-Game/index.html",
+    "path": "20-Tetris-Game/index.html",
     "icon": "🟦",
     "category": "Puzzle",
     "cover": null
@@ -162,7 +162,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Tilting Maze",
     "folder": "21-Tilting-Maze-Game",
-    "path": "games/21-Tilting-Maze-Game/index.html",
+    "path": "21-Tilting-Maze-Game/index.html",
     "icon": "🌀",
     "category": "Puzzle",
     "cover": null
@@ -170,7 +170,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Memory Card",
     "folder": "22-Memory-Card-Game",
-    "path": "games/22-Memory-Card-Game/index.html",
+    "path": "22-Memory-Card-Game/index.html",
     "icon": "🧠",
     "category": "Puzzle",
     "cover": null
@@ -178,7 +178,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Number Guessing",
     "folder": "23-Type-Number-Guessing-Game",
-    "path": "games/23-Type-Number-Guessing-Game/index.html",
+    "path": "23-Type-Number-Guessing-Game/index.html",
     "icon": "🎯",
     "category": "Arcade",
     "cover": null
@@ -186,7 +186,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Snake",
     "folder": "24-Snake-Game",
-    "path": "games/24-Snake-Game/index.html",
+    "path": "24-Snake-Game/index.html",
     "icon": "🐍",
     "category": "Arcade",
     "cover": null
@@ -194,15 +194,15 @@ window.GAME_LIBRARY = [
   {
     "name": "Connect Four",
     "folder": "25-Connect-Four-Game",
-    "path": "games/25-Connect-Four-Game/index.html",
+    "path": "25-Connect-Four-Game/index.html",
     "icon": "🔴",
     "category": "Strategy",
-    "cover": "games/25-Connect-Four-Game/icons8-github-100.png"
+    "cover": "25-Connect-Four-Game/icons8-github-100.png"
   },
   {
     "name": "Insect Catch",
     "folder": "26-Insect-Catch-Game",
-    "path": "games/26-Insect-Catch-Game/index.html",
+    "path": "26-Insect-Catch-Game/index.html",
     "icon": "🐞",
     "category": "Arcade",
     "cover": null
@@ -210,7 +210,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Typing Game",
     "folder": "27-Typing-Game",
-    "path": "games/27-Typing-Game/index.html",
+    "path": "27-Typing-Game/index.html",
     "icon": "⌨️",
     "category": "Word",
     "cover": null
@@ -218,7 +218,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Dice Roll Simulator",
     "folder": "28-Dice-Roll-Simulator",
-    "path": "games/28-Dice-Roll-Simulator/index.html",
+    "path": "28-Dice-Roll-Simulator/index.html",
     "icon": "🎲",
     "category": "Casual",
     "cover": null
@@ -226,7 +226,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Shape Clicker",
     "folder": "29-Shape-Clicker-Game",
-    "path": "games/29-Shape-Clicker-Game/index.html",
+    "path": "29-Shape-Clicker-Game/index.html",
     "icon": "🔷",
     "category": "Casual",
     "cover": null
@@ -234,7 +234,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Typing Challenge",
     "folder": "30-Typing-Game",
-    "path": "games/30-Typing-Game/index.html",
+    "path": "30-Typing-Game/index.html",
     "icon": "⌨️",
     "category": "Word",
     "cover": null
@@ -242,7 +242,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Speak Number Guessing",
     "folder": "31-Speak-Number-Guessing-Game",
-    "path": "games/31-Speak-Number-Guessing-Game/index.html",
+    "path": "31-Speak-Number-Guessing-Game/index.html",
     "icon": "🎯",
     "category": "Casual",
     "cover": null
@@ -250,7 +250,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Fruit Slicer",
     "folder": "32-Fruit-Slicer-Game",
-    "path": "games/32-Fruit-Slicer-Game/index.html",
+    "path": "32-Fruit-Slicer-Game/index.html",
     "icon": "🍉",
     "category": "Action",
     "cover": null
@@ -258,7 +258,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Quiz",
     "folder": "33-Quiz-Game",
-    "path": "games/33-Quiz-Game/index.html",
+    "path": "33-Quiz-Game/index.html",
     "icon": "❓",
     "category": "Word",
     "cover": null
@@ -266,7 +266,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Emoji Catcher",
     "folder": "34-Emoji-Catcher-Game",
-    "path": "games/34-Emoji-Catcher-Game/index.html",
+    "path": "34-Emoji-Catcher-Game/index.html",
     "icon": "😎",
     "category": "Arcade",
     "cover": null
@@ -274,7 +274,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Whack A Mole",
     "folder": "35-Whack-A-Mole-Game",
-    "path": "games/35-Whack-A-Mole-Game/index.html",
+    "path": "35-Whack-A-Mole-Game/index.html",
     "icon": "🔨",
     "category": "Arcade",
     "cover": null
@@ -282,7 +282,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Simon Says",
     "folder": "36-Simon-Says-Game",
-    "path": "games/36-Simon-Says-Game/index.html",
+    "path": "36-Simon-Says-Game/index.html",
     "icon": "🎨",
     "category": "Casual",
     "cover": null
@@ -290,7 +290,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Sliding Puzzle",
     "folder": "37-Sliding-Puzzle-Game",
-    "path": "games/37-Sliding-Puzzle-Game/index.html",
+    "path": "37-Sliding-Puzzle-Game/index.html",
     "icon": "🧩",
     "category": "Puzzle",
     "cover": null
@@ -298,7 +298,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Mastermind",
     "folder": "38-Mastermind-Game",
-    "path": "games/38-Mastermind-Game/index.html",
+    "path": "38-Mastermind-Game/index.html",
     "icon": "🧠",
     "category": "Strategy",
     "cover": null
@@ -306,7 +306,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Blackjack",
     "folder": "39-Blackjack-Game",
-    "path": "games/39-Blackjack-Game/index.html",
+    "path": "39-Blackjack-Game/index.html",
     "icon": "♠️",
     "category": "Cards",
     "cover": null
@@ -314,7 +314,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Bubble Shooter",
     "folder": "40-Bubble-Shooter-Game",
-    "path": "games/40-Bubble-Shooter-Game/index.html",
+    "path": "40-Bubble-Shooter-Game/index.html",
     "icon": "🫧",
     "category": "Puzzle",
     "cover": null
@@ -322,7 +322,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Checkers",
     "folder": "41-Checkers-Game",
-    "path": "games/41-Checkers-Game/index.html",
+    "path": "41-Checkers-Game/index.html",
     "icon": "⚫",
     "category": "Strategy",
     "cover": null
@@ -330,7 +330,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Space Invaders",
     "folder": "42-Space-Invaders-Game",
-    "path": "games/42-Space-Invaders-Game/index.html",
+    "path": "42-Space-Invaders-Game/index.html",
     "icon": "👾",
     "category": "Action",
     "cover": null
@@ -338,7 +338,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Asteroids",
     "folder": "43-Asteroids-Game",
-    "path": "games/43-Asteroids-Game/index.html",
+    "path": "43-Asteroids-Game/index.html",
     "icon": "☄️",
     "category": "Action",
     "cover": null
@@ -346,7 +346,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Reversi",
     "folder": "44-Reversi-Game",
-    "path": "games/44-Reversi-Game/index.html",
+    "path": "44-Reversi-Game/index.html",
     "icon": "⚪",
     "category": "Strategy",
     "cover": null
@@ -354,7 +354,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Mahjong Solitaire",
     "folder": "45-Mahjong-Solitaire-Game",
-    "path": "games/45-Mahjong-Solitaire-Game/index.html",
+    "path": "45-Mahjong-Solitaire-Game/index.html",
     "icon": "🃏",
     "category": "Cards",
     "cover": null
@@ -362,7 +362,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Frogger",
     "folder": "46-Frogger-Game",
-    "path": "games/46-Frogger-Game/index.html",
+    "path": "46-Frogger-Game/index.html",
     "icon": "🐸",
     "category": "Arcade",
     "cover": null
@@ -370,7 +370,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Poker",
     "folder": "47-Poker-Game",
-    "path": "games/47-Poker-Game/index.html",
+    "path": "47-Poker-Game/index.html",
     "icon": "🃏",
     "category": "Cards",
     "cover": null
@@ -378,7 +378,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Battleship",
     "folder": "48-Battleship-Game",
-    "path": "games/48-Battleship-Game/index.html",
+    "path": "48-Battleship-Game/index.html",
     "icon": "🚢",
     "category": "Strategy",
     "cover": null
@@ -386,7 +386,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Nonogram",
     "folder": "49-Nonogram-Game",
-    "path": "games/49-Nonogram-Game/index.html",
+    "path": "49-Nonogram-Game/index.html",
     "icon": "🧩",
     "category": "Puzzle",
     "cover": null
@@ -394,7 +394,7 @@ window.GAME_LIBRARY = [
   {
     "name": "Lights Out",
     "folder": "50-Lights-Out-Game",
-    "path": "games/50-Lights-Out-Game/index.html",
+    "path": "50-Lights-Out-Game/index.html",
     "icon": "💡",
     "category": "Puzzle",
     "cover": null
