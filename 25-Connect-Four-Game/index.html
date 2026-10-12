@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Talha - Connect Four</title>
+	
+	<!-- 👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻-->
+	<!-- Also uploaded the demo of this code in a gif : https://c.tenor.com/x8v1oNUOmg4AAAAd/tenor.gif-->
+	<!-- 👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻-->
+
+	<!-- 👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻-->
+	<!-- More html-css-js Games Calculators Games Cards Elements Projects on https://www.github.com/he-is-talha --> 
+	<!-- 👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻-->
+
+	<link rel="icon" href="https://i.ibb.co/M6KTWnf/pic.jpg">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="style.css">
+
+
+    <style id="gamezone-return-style">
+      .gamezone-home-button{position:fixed;z-index:99999;left:18px;bottom:18px;display:inline-flex;align-items:center;gap:9px;padding:12px 17px;border:1px solid rgba(191,145,255,.62);border-radius:999px;background:linear-gradient(135deg,rgba(39,20,65,.96),rgba(18,22,42,.96));color:#fff;font:600 14px/1.2 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-decoration:none;box-shadow:0 8px 28px rgba(0,0,0,.32),0 0 20px rgba(155,92,255,.22);backdrop-filter:blur(10px);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;}
+      .gamezone-home-button:hover,.gamezone-home-button:focus-visible{transform:translateY(-3px);border-color:#d9bdff;box-shadow:0 10px 30px rgba(0,0,0,.38),0 0 24px rgba(155,92,255,.4);outline:none;}
+      .gamezone-home-button .gzh-icon{display:grid;place-items:center;width:27px;height:27px;border-radius:50%;background:linear-gradient(135deg,#9b5cff,#ff386d);font-size:16px;}
+      @media(max-width:520px){.gamezone-home-button{left:12px;bottom:12px;padding:10px 13px;font-size:12px}.gamezone-home-button .gzh-icon{width:24px;height:24px}}
+    </style>
+</head>
+<body>
+
+	<div id="main-container">
+
+		<div id="player">
+
+			<h1 id="player-type">Player - 1</h1>
+
+		</div>
+
+		<div id="grid">
+
+			<div class="row">
+
+				<div class="col">
+
+					<button class="btn btn-1"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-2"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-3"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-4"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-5"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-6"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-7"></button>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col">
+
+					<button class="btn btn-8"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-9"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-10"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-11"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-12"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-13"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-14"></button>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col">
+
+					<button class="btn btn-15"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-16"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-17"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-18"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-19"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-20"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-21"></button>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col">
+
+					<button class="btn btn-22"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-23"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-24"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-25"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-26"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-27"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-28"></button>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col">
+
+					<button class="btn btn-29"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-30"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-31"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-32"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-33"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-34"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-35"></button>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col">
+
+					<button class="btn btn-36"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-37"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-38"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-39"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-40"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-41"></button>
+
+				</div>
+
+				<div class="col">
+
+					<button class="btn btn-42"></button>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<button type="button" id="reset-btn">Play Again</button>
+
+	</div>
+
+	<script src="script.js"></script>
+
+
+    <a class="gamezone-home-button" href="../../home.html" aria-label="العودة إلى الشاشة الرئيسية" title="العودة إلى GameZone">
+      <span class="gzh-icon" aria-hidden="true">⌂</span>
+      <span>الرئيسية GameZone</span>
+    </a>
+</body>
+</html>
